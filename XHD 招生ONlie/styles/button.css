@@ -1,0 +1,50 @@
+@charset "utf-8";
+A.btna{
+   text-align: center;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none !important;
+    padding-top: 0px;
+}
+A.btna:hover{
+   color: #fff;
+    text-decoration: none;
+}
+.btn{
+   border-bottom: medium none;
+    border-left: medium none;
+    padding-bottom: 8px;
+    padding-left:30px;
+    padding-right:30px;
+    background: #87c3ff;
+    color: #fff;
+    font-size: 12px;
+    border-top: medium none;
+    cursor: pointer;
+    border-right: medium none;
+    padding-top: 8px;
+}
+.btn:hover{
+   background: #555b5d;
+}
+.btna-s{
+   border-bottom: medium none;
+    border-left: medium none;
+    padding-bottom: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block;
+    background: #5b7177;
+    color: #fff;
+    font-size: 12px;
+    border-top: medium none;
+    cursor: pointer;
+    border-right: medium none;
+    padding-top: 2px;
+}
+.btna-s:hover{
+   background: #555b5d;
+}

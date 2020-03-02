@@ -1,0 +1,96 @@
+﻿@charset "utf-8";
+
+/** 全局样式 **/
+.FrontProducts_selectbyClassNew01-d1_c1{
+	width:100%;
+	margin:0 auto;
+}
+.FrontProducts_selectbyClassNew01-d1_c1 table{
+	border:1px solid #d7d7d7;
+	width:100%;
+}
+.FrontProducts_selectbyClassNew01-d1_c1 a{
+	color:#0066cc;
+}
+/** 筛选条件 **/
+.FrontProducts_selectbyClassNew01-d1_c1 .conditions{
+	width:100%;
+}
+.FrontProducts_selectbyClassNew01-d1_c1 .conditions td{
+	border-bottom:1px dashed #d7d7d7;
+}
+/** 筛选条件名称 **/
+.FrontProducts_selectbyClassNew01-d1_c1 .conditions .conditions-name{
+	border-right:1px solid #d7d7d7;
+	border-bottom:1px dashed #d7d7d7;
+	background:#f1f1f1;
+	text-align:right;
+	width:14%;
+	line-height:20px;
+	padding-right:10px;
+	font-weight: normal;
+}
+/** 筛选条件-全部 **/
+.FrontProducts_selectbyClassNew01-d1_c1 .conditions .conditions-all{
+	text-align:right;
+	width:8%;
+	line-height:20px;
+	padding-right:10px;
+	color:#0066cc;
+}
+/** 筛选条件-选项 **/
+.FrontProducts_selectbyClassNew01-d1_c1 .screening .conditions-options{
+	text-align:left;
+	line-height:20px;
+	padding:10px;
+	color:#0066cc;
+}
+/** 筛选条件-当前选择 **/
+.FrontProducts_selectbyClassNew01-d1_c1 .screening .current{
+	background:#fe6500;
+	padding:3px 5px;
+	color:#FFF;
+}
+
+/*已选条件*/
+.FrontProducts_selectbyClassNew01-d1_c1 .selected-conditions{
+	width:100%;
+}
+.FrontProducts_selectbyClassNew01-d1_c1 .selected-conditions .conditions-name{
+	border-right:1px solid #d7d7d7;
+	background:#f1f1f1;
+	text-align:right;
+	width:14%;
+	line-height:20px;
+	padding-right:10px;
+	font-weight: bold;
+}
+.FrontProducts_selectbyClassNew01-d1_c1 .selected-conditions .conditions-options{
+	text-align:left;
+	line-height:20px;
+	padding:10px;
+	color:#0066cc;
+	width:100%;
+}
+.FrontProducts_selectbyClassNew01-d1_c1 .selected-conditions span a{
+	background-image:url(../../images/products/close.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:inline-block;
+	width:34px;
+	height:24px;
+	line-height:24px;
+	vertical-align: middle;
+}
+.FrontProducts_selectbyClassNew01-d1_c1 .selected-conditions span a:hover{
+	background-image:url(../../images/products/close-hover.gif);
+}
+/*修改*/
+.FrontProducts_selectbyClassNew01-d1_c1 .screening .disable{
+	 cursor: auto;
+	 background: #dbdbdb; 
+	 color: #999;
+	 padding: 3px 5px;
+}
+
+
